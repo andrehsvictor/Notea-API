@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>andrehsvictor</groupId>
-	<artifactId>notea-auth</artifactId>
+	<artifactId>authorization-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Notea Authorization Server</name>
 	<description>Authorization Server for Notea</description>
@@ -58,12 +58,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-docker-compose</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
